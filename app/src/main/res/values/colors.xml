@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- end 拷贝于subsession -->
+
+    <!-- 自定义颜色 -->
+    <!--标题，正文内容-->
+    <color name="vfBlackColor">#262626</color>
+    <!--大标题，筛选标题等-->
+    <color name="vfDarkGrayColor">#666666</color>
+    <!--小标题，辅助说明文字-->
+    <color name="vfMediumGrayColor">#969696</color>
+    <!--输入框内的提示文字-->
+    <color name="vfLightGrayColor">#CCCCCC</color>
+    <!--深色背景上的文字-->
+    <color name="vfWhiteColor">#FFFFFF</color>
+
+    <color name="vfRedColor">#F56950</color>
+    <color name="vfLakeBlueColor">#00CDAF</color>
+    <color name="vfGreenColor">#87CD05</color>
+    <color name="vfBlueColor">#46C3E1</color>
+    <color name="vfOrangeColor">#F08C41</color>
+
+    <!--页面背景色-->
+    <color name="vfBgPageColor">#EEEEEE</color>
+    <!--顶部导航栏背景色-->
+    <color name="vfBgNavigationColor">#FFFFFF</color>
+    <!--顶部导航栏标题色-->
+    <color name="vfBgTitleColor">#666666</color>
+    <!--内容背景色-->
+    <color name="vfBgContentColor">#FFFFFF</color>
+    <!--分割线-->
+    <color name="vfLineColor">#DDDDDD</color>
+    <!--重要按钮背景色-->
+    <color name="vfBtnColor">#FAC800</color>
+    <!--点击效果-->
+    <color name="vfClickColor">#BA970B</color>
+    <!-- 黄色按钮点击效果 -->
+    <color name="vfClickYellowColor">#AF8C00</color>
+    <!-- 灰色按钮点击效果 -->
+    <color name="vfClickGrayColor">#8C8C8C</color>
+
+    <!-- 单行点击效果 -->
+    <color name="vfSingleLineClickColor">#4CCCCCCC</color>
+
+    <color name="pull_refresh_listview_text_color">#595959</color>
+    <color name="app_text_load_fail">#b9b9b9</color>
+    <color name="app_xlistview_text">#878787</color>
+
+
+    <color name="vfDarkLayerWhiteColor">#4CFFFFFF</color>
+
+    <color name="loginbtn_bg">#F45870</color>
+    <color name="loginbtn_press_bg">#E15167</color>
+    <color name="loginbtn_bg_enable">#dedede</color>
+    <color name="notice_number_noexit">#fff6e8</color>
+    <color name="color_a6a6">#a6a6a6</color>
+    <color name="color_e8">#e8e8e8</color>
+    <color name="color_65">#656565</color>
+    <color name="color_35">#359df5</color>
+    <color name="color_f458">#f45870</color>
+    <color name="color_f4">#f4f4f4</color>
+    <color name="color_de">#dedede</color>
+    <color name="color_11">#111111</color>
+    <color name="color_18">#e8e8e8</color>
+    <color name="color_fff6e8">#fff6e8</color>
+    <color name="color_ef">#ef5a1d</color>
+    <color name="color_b7">#b7b7b7</color>
+    <color name="color_e1e1e1">#e1e1e1</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_cc">#cccccc</color>
+    <color name="color_77">#77b5f5</color>
+    <color name="color_dc5a57">#dc5a57</color>
+    <color name="color_e7">#e7e7e7</color>
+    <color name="color_ff">#ffffff</color>
+    <color name="color_46">#46c1fa</color>
+    <color name="color_fe">#fe865a</color>
+    <color name="color_f9">#f9829b</color>
+    <color name="color_fd">#fddbe3</color>
+    <color name="color_f9a">#f9a129</color>
+    <color name="color_d6">#d6d6d6</color>
+    <color name="color_dd5">#dd5d54</color>F
+    <color name="color_fc6b">#FC6B60</color>
+    <color name="color_f64b">#F64B71</color>
+    <color name="color_efef">#EFEFEF</color>
+
+
+
+    <!--银行卡背景颜色-->
+    <color name="color_ef6c80">#ef6c80</color>
+    <color name="color_659ddf">#659ddf</color>
+    <color name="color_57c9c1">#57c9c1</color>
+    <color name="color_f6a145">#f6a145</color>
+    <color name="color_ffcb02">#ffcb02</color>
+
+    <color name="button_bg_select">#dddddd</color>
+    <color name="dialog_bg_color">#f1f1f1</color>
+
+    <color name="app_body_gray">#858585</color>
+    <color name="app_body_bg_press">#e1e1e1</color>
+    <color name="app_body_bg">#f0f0f0</color>
+    <color name="dialog_title_green_color">#3eb574</color>
+    <color name="dialog_title_red_color">#cb046e</color>
+    <color name="dialog_content_color">#555555</color>
+    <color name="black">#000000</color>
+    <color name="app_text_black">#333333</color>
+
+
+    <!-- 30%的透明度 -->
+    <color name="vfYellowColor_with_vfpha_30_percent">#4DFAC800</color>
+    <color name="vfBlackColor_with_vfpha_30_percent">#4D262626</color>
+    <color name="vfOrangeColor_with_vfpha_30_percent">#4DF08C41</color>
+    <color name="transparent_30">#cc000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">胎动计数器</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_id">576b4c00</string>
+
+    <!-- 语言 -->
+    <string-array name="language_entries">
+        <item>普通话</item>
+        <item>粤语</item>
+        <item>河南话</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>mandarin</item>
+        <item>cantonese</item>
+        <item>henanese</item>
+        <item>en_us</item>
+    </string-array>
+
+    <!-- 标点符号 -->
+    <string-array name="punc_entries">
+        <item>有标点</item>
+        <item>无标点</item>
+    </string-array>
+    <string-array name="punc_values">
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="pref_title_iat_show">显示听写界面</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+</resources>

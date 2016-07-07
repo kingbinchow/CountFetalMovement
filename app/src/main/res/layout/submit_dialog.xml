@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_viewer_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/title_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:layout_marginLeft="20dip" 
+            android:layout_marginRight="20dip"
+            android:layout_marginBottom="20dip"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/title_icon"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginBottom="20dip"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/vfLineColor" />
+
+        <TableRow
+            android:id="@+id/multi_button"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/left_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/common_button_style3_bg"
+                android:text="取消"
+                android:textSize="17dp"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:background="@color/vfLineColor" />
+            <Button
+                android:id="@+id/right_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/common_button_style3_bg"
+                android:text="确认"
+                android:textSize="17dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/one_button"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="取消"
+                android:textSize="17dp"/>
+        </TableRow>
+
+    </LinearLayout>
+
+</LinearLayout>
